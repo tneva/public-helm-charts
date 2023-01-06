@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: {{ template "serviceb.fullname" . }}
   labels:
+    app.kubernetes.io/name: {{ template "serviceb.name" . }}
     app: {{ template "serviceb.name" . }}
     chart: {{ template "serviceb.chart" . }}
     release: {{ .Release.Name }}

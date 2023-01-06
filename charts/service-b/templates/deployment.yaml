@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: {{ template "serviceb.fullname" . }}
   labels:
+    app.kubernetes.io/name: {{ template "serviceb.name" . }}
     app: {{ template "serviceb.name" . }}
     chart: {{ template "serviceb.chart" . }}
     release: {{ .Release.Name }}
@@ -12,11 +13,13 @@ spec:
   revisionHistoryLimit: 3
   selector:
     matchLabels:
+      app.kubernetes.io/name: {{ template "serviceb.name" . }}
       app: {{ template "serviceb.name" . }}
       release: {{ .Release.Name }}
   template:
     metadata:
       labels:
+        app.kubernetes.io/name: {{ template "serviceb.name" . }}
         app: {{ template "serviceb.name" . }}
         release: {{ .Release.Name }}
     spec:

@@ -3,7 +3,17 @@ entries:
   service-a:
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2023-01-06T21:42:31.127966Z"
+    created: "2023-01-06T22:00:55.177323Z"
+    description: A Helm chart for Kubernetes
+    digest: dea8882d7dd59f9fc5d96e5d64c241d30f3364b47b50d8c58bc6275dceade138
+    name: service-a
+    type: application
+    urls:
+    - https://tneva.github.io/public-helm-charts/service-a-0.2.5.tgz
+    version: 0.2.5
+  - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2023-01-06T22:00:55.176379Z"
     description: A Helm chart for Kubernetes
     digest: d46e6974b9f61bd941e7c919018b0b3142b707eebf00f373d5770da9650ff352
     name: service-a
@@ -13,7 +23,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2023-01-06T21:42:31.127275Z"
+    created: "2023-01-06T22:00:55.174573Z"
     description: A Helm chart for Kubernetes
     digest: 7f4ac99110aaff9edba89e91ce6e56593dc70e54581d018a2ab348f967bcc210
     name: service-a
@@ -23,7 +33,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-01-06T21:42:31.126549Z"
+    created: "2023-01-06T22:00:55.172302Z"
     description: A Helm chart for Kubernetes
     digest: aa755c0792fc020ad1a883370d45af3bcc28433ee4e20f8893f6b9d28af3a467
     name: service-a
@@ -33,7 +43,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-01-06T21:42:31.125656Z"
+    created: "2023-01-06T22:00:55.171457Z"
     description: A Helm chart for Kubernetes
     digest: de7d67f79d3fc07abf3d568000cec60f376705a401ee6cfcfe0ffb57f0e0fff4
     name: service-a
@@ -43,7 +53,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-01-06T21:42:31.124012Z"
+    created: "2023-01-06T22:00:55.168295Z"
     description: A Helm chart for Kubernetes
     digest: d48b5822e98f8d4a23ddcc25de583be5dcdb796d43057ad1293c91d68bd4d981
     name: service-a
@@ -53,7 +63,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-01-06T21:42:31.121317Z"
+    created: "2023-01-06T22:00:55.162868Z"
     description: A Helm chart for Kubernetes
     digest: 09e4990de340efd2e34a8345baf745f9d0cd8ac4f4da1c25c06e5b4b833383ad
     name: service-a
@@ -64,7 +74,17 @@ entries:
   service-b:
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2023-01-06T21:42:31.134026Z"
+    created: "2023-01-06T22:00:55.182977Z"
+    description: A Helm chart for Kubernetes
+    digest: e621b0c8d7c80a77c9794e2eae87ff62fdeadf8aa38150b8dc353c5fdde0f50b
+    name: service-b
+    type: application
+    urls:
+    - https://tneva.github.io/public-helm-charts/service-b-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2023-01-06T22:00:55.182307Z"
     description: A Helm chart for Kubernetes
     digest: 45d98797f3c5b50a1fc614b06014f8bc4080e3a90d12866d7ae8cd16b4c37b94
     name: service-b
@@ -74,7 +94,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2023-01-06T21:42:31.131455Z"
+    created: "2023-01-06T22:00:55.181698Z"
     description: A Helm chart for Kubernetes
     digest: 7edf87143272aede947d11a22c93a0d466697ae04585b10c49820470cadc6e74
     name: service-b
@@ -84,7 +104,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-01-06T21:42:31.130799Z"
+    created: "2023-01-06T22:00:55.180417Z"
     description: A Helm chart for Kubernetes
     digest: b67d3af3c49a08ae4a322b28e53c076a1b40c8b0d470d6215a466851203f7cdd
     name: service-b
@@ -94,7 +114,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-01-06T21:42:31.129304Z"
+    created: "2023-01-06T22:00:55.179612Z"
     description: A Helm chart for Kubernetes
     digest: c8921657ea3e45bc5e6e94477623b5757bf014e317ad7e9c1c3c3095b9f8a248
     name: service-b
@@ -102,4 +122,4 @@ entries:
     urls:
     - https://tneva.github.io/public-helm-charts/service-b-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-06T21:42:31.119781Z"
+generated: "2023-01-06T22:00:55.159451Z"
