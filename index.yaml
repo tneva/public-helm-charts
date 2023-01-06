@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   service-a:
   - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2023-01-06T20:49:09.043742Z"
+    description: A Helm chart for Kubernetes
+    digest: de7d67f79d3fc07abf3d568000cec60f376705a401ee6cfcfe0ffb57f0e0fff4
+    name: service-a
+    type: application
+    urls:
+    - https://tneva.github.io/public-helm-charts/service-a-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-01-06T20:33:50.118472Z"
+    created: "2023-01-06T20:49:09.043153Z"
     description: A Helm chart for Kubernetes
     digest: d48b5822e98f8d4a23ddcc25de583be5dcdb796d43057ad1293c91d68bd4d981
     name: service-a
@@ -13,7 +23,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-01-06T20:33:50.11771Z"
+    created: "2023-01-06T20:49:09.040501Z"
     description: A Helm chart for Kubernetes
     digest: 09e4990de340efd2e34a8345baf745f9d0cd8ac4f4da1c25c06e5b4b833383ad
     name: service-a
@@ -23,8 +33,18 @@ entries:
     version: 0.1.0
   service-b:
   - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2023-01-06T20:49:09.045128Z"
+    description: A Helm chart for Kubernetes
+    digest: b67d3af3c49a08ae4a322b28e53c076a1b40c8b0d470d6215a466851203f7cdd
+    name: service-b
+    type: application
+    urls:
+    - https://tneva.github.io/public-helm-charts/service-b-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-01-06T20:33:50.119221Z"
+    created: "2023-01-06T20:49:09.044527Z"
     description: A Helm chart for Kubernetes
     digest: c8921657ea3e45bc5e6e94477623b5757bf014e317ad7e9c1c3c3095b9f8a248
     name: service-b
@@ -32,4 +52,4 @@ entries:
     urls:
     - https://tneva.github.io/public-helm-charts/service-b-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-06T20:33:50.116625Z"
+generated: "2023-01-06T20:49:09.036959Z"
