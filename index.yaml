@@ -2,10 +2,10 @@ apiVersion: v1
 entries:
   service-a:
   - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-01-06T20:21:08.09977Z"
+    appVersion: 1.0.0
+    created: "2023-01-06T20:26:25.534483Z"
     description: A Helm chart for Kubernetes
-    digest: 22123d9bded4a7bec3ed6d66aebbc80ef8420488bb7406419f9a7a8f5180fbae
+    digest: d48b5822e98f8d4a23ddcc25de583be5dcdb796d43057ad1293c91d68bd4d981
     name: service-a
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-01-06T20:21:08.098541Z"
+    created: "2023-01-06T20:26:25.531128Z"
     description: A Helm chart for Kubernetes
     digest: 09e4990de340efd2e34a8345baf745f9d0cd8ac4f4da1c25c06e5b4b833383ad
     name: service-a
@@ -21,4 +21,4 @@ entries:
     urls:
     - https://tneva.github.io/public-helm-charts/service-a-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-06T20:21:08.096978Z"
+generated: "2023-01-06T20:26:25.526254Z"
