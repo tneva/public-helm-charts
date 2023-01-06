@@ -4,8 +4,8 @@
 replicaCount: 1
 
 image:
-  repository: docker.io/tomaems/service-a:0.1.0
-  tag: 0.1
+  repository: docker.io/tomaems/service-a
+  tag: 0.1.0
   pullPolicy: IfNotPresent
 
 service:
