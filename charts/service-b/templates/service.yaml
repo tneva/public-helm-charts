@@ -15,5 +15,6 @@ spec:
       protocol: TCP
       name: http
   selector:
+    app.kubernetes.io/name: {{ template "serviceb.name" . }}
     app: {{ template "serviceb.name" . }}
     release: {{ .Release.Name }}
