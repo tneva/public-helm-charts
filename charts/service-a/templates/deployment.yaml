@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ template "helm-servicea.fullname" . }}
+  name: {{ template "servicea.fullname" . }}
   labels:
-    app: {{ template "helm-servicea.name" . }}
-    chart: {{ template "helm-servicea.chart" . }}
+    app: {{ template "servicea.name" . }}
+    chart: {{ template "servicea.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
@@ -12,12 +12,12 @@ spec:
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: {{ template "helm-servicea.name" . }}
+      app: {{ template "servicea.name" . }}
       release: {{ .Release.Name }}
   template:
     metadata:
       labels:
-        app: {{ template "helm-servicea.name" . }}
+        app: {{ template "servicea.name" . }}
         release: {{ .Release.Name }}
     spec:
       containers:
