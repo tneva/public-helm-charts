@@ -9,6 +9,6 @@ entries:
     name: helm-service-a
     type: application
     urls:
-    - https://github.com/tneva/public-helm-charts/helm-service-a-0.1.0.tgz
+    - https://tneva.github.io/public-helm-charts/helm-service-a-0.1.0.tgz
     version: 0.1.0
 generated: "2023-01-06T17:22:39.730029Z"
